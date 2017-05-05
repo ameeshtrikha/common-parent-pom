@@ -6,7 +6,7 @@
     <url>${scm.view.url}</url>
     <groupId>net.ameesh</groupId>
     <artifactId>common-parent-pom</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
     <description>The root POM providing common settings for all maven projects.</description>
 
