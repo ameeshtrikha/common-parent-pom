@@ -22,8 +22,8 @@
     </organization>
 
     <scm>
-        <connection>scm:git:git@github.com:ameeshtrikha/common-parent-pom.git</connection>
-        <developerConnection>scm:git:git@github.com:ameeshtrikha/common-parent-pom.git</developerConnection>
+        <connection>scm:git:https://github.com/ameeshtrikha/common-parent-pom.git</connection>
+        <developerConnection>scm:git:https://github.com/ameeshtrikha/common-parent-pom.git</developerConnection>
     </scm>
 
     <prerequisites>
