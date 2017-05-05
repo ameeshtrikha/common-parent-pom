@@ -22,8 +22,8 @@
     </organization>
 
     <scm>
-        <connection>scm:git:https://github.com/ameeshtrikha/common-parent-pom.git</connection>
-        <developerConnection>scm:git:https://github.com/ameeshtrikha/common-parent-pom.git</developerConnection>
+        <connection>${scm.url}</connection>
+        <developerConnection>${scm.url}</developerConnection>
     </scm>
 
     <prerequisites>
@@ -935,7 +935,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
-        <scm.prefix>scm:git:git://github.com/ameeshtrikha</scm.prefix>
+        <scm.prefix>scm:git:https://github.com/ameeshtrikha</scm.prefix>
         <scm.url>${scm.prefix}/${project.artifactId}.git</scm.url>
         <scm.tag>HEAD</scm.tag>
         <!-- Note: scm.view.url MUST have a trailing "/", otherwise the inherited scm values get way funky. -->
